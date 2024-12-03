@@ -61,175 +61,223 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
         //Player X Coding
         if(b1 == ("X") && b2 == ("X") && b3 == ("X"))
         {
-            JOptionPane.showMessageDialog(this, "Player X Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player O Died!\nPlayer X Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             xCount++;
             gameScore();
             txtbtn1.setBackground(Color.orange);
             txtbtn2.setBackground(Color.orange);
             txtbtn3.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         
         if(b4 == ("X") && b5 == ("X") && b6 == ("X"))
         {
-            JOptionPane.showMessageDialog(this, "Player X Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player O Died!\nPlayer X Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             xCount++;
             gameScore();
             txtbtn4.setBackground(Color.orange);
             txtbtn5.setBackground(Color.orange);
             txtbtn6.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         
         if(b7 == ("X") && b8 == ("X") && b9 == ("X"))
         {
-            JOptionPane.showMessageDialog(this, "Player X Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player O Died!\nPlayer X Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             xCount++;
             gameScore();
             txtbtn7.setBackground(Color.orange);
             txtbtn8.setBackground(Color.orange);
             txtbtn9.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         
         if(b1 == ("X") && b4 == ("X") && b7 == ("X"))
         {
-            JOptionPane.showMessageDialog(this, "Player X Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player O Died!\nPlayer X Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             xCount++;
             gameScore();
             txtbtn1.setBackground(Color.orange);
             txtbtn4.setBackground(Color.orange);
             txtbtn7.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         
         if(b2 == ("X") && b5 == ("X") && b8 == ("X"))
         {
-            JOptionPane.showMessageDialog(this, "Player X Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player O Died!\nPlayer X Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             xCount++;
             gameScore();
             txtbtn2.setBackground(Color.orange);
             txtbtn5.setBackground(Color.orange);
             txtbtn8.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         
         if(b3 == ("X") && b6 == ("X") && b9 == ("X"))
         {
-            JOptionPane.showMessageDialog(this, "Player X Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player O Died!\nPlayer X Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             xCount++;
             gameScore();
             txtbtn3.setBackground(Color.orange);
             txtbtn6.setBackground(Color.orange);
             txtbtn9.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         if(b1 == ("X") && b5 == ("X") && b9 == ("X"))
         {
-            JOptionPane.showMessageDialog(this, "Player X Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player O Died!\nPlayer X Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             xCount++;
             gameScore();
             txtbtn1.setBackground(Color.orange);
             txtbtn5.setBackground(Color.orange);
             txtbtn9.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         if(b3 == ("X") && b5 == ("X") && b7 == ("X"))
         {
-            JOptionPane.showMessageDialog(this, "Player X Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player O Died!\nPlayer X Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             xCount++;
             gameScore();
             txtbtn3.setBackground(Color.orange);
             txtbtn5.setBackground(Color.orange);
             txtbtn7.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         
         //Player O Coding
         if(b1 == ("O") && b2 == ("O") && b3 == ("O"))
         {
-            JOptionPane.showMessageDialog(this, "Player O Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player X Died!\nPlayer O Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore();
             txtbtn1.setBackground(Color.orange);
             txtbtn2.setBackground(Color.orange);
             txtbtn3.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         
         if(b4 == ("O") && b5 == ("O") && b6 == ("O"))
         {
-            JOptionPane.showMessageDialog(this, "Player O Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player X Died!\nPlayer O Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore();
             txtbtn4.setBackground(Color.orange);
             txtbtn5.setBackground(Color.orange);
             txtbtn6.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         
         if(b7 == ("O") && b8 == ("O") && b9 == ("O"))
         {
-            JOptionPane.showMessageDialog(this, "Player O Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player X Died!\nPlayer O Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore();
             txtbtn7.setBackground(Color.orange);
             txtbtn8.setBackground(Color.orange);
             txtbtn9.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         
         if(b1 == ("O") && b4 == ("O") && b7 == ("O"))
         {
-            JOptionPane.showMessageDialog(this, "Player O Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player X Died!\nPlayer O Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore();
             txtbtn1.setBackground(Color.orange);
             txtbtn4.setBackground(Color.orange);
             txtbtn7.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         
         if(b2 == ("O") && b5 == ("O") && b8 == ("O"))
         {
-            JOptionPane.showMessageDialog(this, "Player O Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player X Died!\nPlayer O Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore();
             txtbtn2.setBackground(Color.orange);
             txtbtn5.setBackground(Color.orange);
             txtbtn8.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         
         if(b3 == ("O") && b6 == ("O") && b9 == ("O"))
         {
-            JOptionPane.showMessageDialog(this, "Player O Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player X Died!\nPlayer O Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore();
             txtbtn3.setBackground(Color.orange);
             txtbtn6.setBackground(Color.orange);
             txtbtn9.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         if(b1 == ("O") && b5 == ("O") && b9 == ("O"))
         {
-            JOptionPane.showMessageDialog(this, "Player O Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player X Died!\nPlayer O Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore();
             txtbtn1.setBackground(Color.orange);
             txtbtn5.setBackground(Color.orange);
             txtbtn9.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
         if(b3 == ("O") && b5 == ("O") && b7 == ("O"))
         {
-            JOptionPane.showMessageDialog(this, "Player O Can proceed to Next Level", "Tic Tac Toe",
+            JOptionPane.showMessageDialog(this, "Player X Died!\nPlayer O Can proceed to Next Level", "Tic Tac Toe",
                     JOptionPane.INFORMATION_MESSAGE);
             oCount++;
             gameScore();
             txtbtn3.setBackground(Color.orange);
             txtbtn5.setBackground(Color.orange);
             txtbtn7.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
         }
     }
     /**
@@ -398,6 +446,10 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(40, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addGap(37, 37, 37))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(71, 71, 71)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -408,10 +460,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                     .addComponent(playerooo)
                     .addComponent(playerxxx))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(40, Short.MAX_VALUE)
-                .addComponent(jLabel2)
-                .addGap(37, 37, 37))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -703,40 +751,7 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
         txtbtn9.setBackground(Color.white);
     }//GEN-LAST:event_txtresetActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(TIC_TAC_TOE_GAME.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(TIC_TAC_TOE_GAME.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(TIC_TAC_TOE_GAME.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(TIC_TAC_TOE_GAME.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
 
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new TIC_TAC_TOE_GAME().setVisible(true);
-            }
-        });
-    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
